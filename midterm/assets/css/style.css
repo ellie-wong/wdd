@@ -1,0 +1,65 @@
+h1 {
+    position:fixed;
+    right: 150px;
+    top: 40px;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 100px;
+    color: #FBF7E8;
+
+}
+
+h2 {
+    position:fixed;
+    right: 150px;
+    top: 240px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+    color: #FBF7E8;
+}
+
+p {
+    position: fixed;
+    right: 150px;
+    bottom: 100px;
+    font-family: 'Kaisei Decol', serif;
+    font-size: 24px;
+    text-align: right;
+    color: #FBF7E8;
+}
+
+.vl {
+    border-left: 2px solid #FBF7E8;
+    height:250px;
+    position: fixed;
+    right: 150px;
+    top: 330px;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+  }
+
+  .nav_item {
+    margin-top: 25px;
+    margin-left: 45px;
+    font-family: 'Epilogue', sans-serif;
+    color: #FBF7E8;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited{
+    color:#FBF7E8;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(128, 121, 121);
+    transition-duration: 0.24;
+  }

@@ -1,0 +1,110 @@
+.background-tint {
+    background-color: rgba(200,100,0,.5);
+    background-blend-mode: multiply;
+  }
+
+.menu {
+  position: fixed;
+  display: flex;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgba(36, 11, 11, 0.76)
+  
+  
+}
+
+
+
+
+.description {
+  font-size: 12px;
+}
+
+.menu_title {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #847F6E;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+body {
+  height: 100%;
+}
+
+.choice {
+    font-family: 'Kaisei Decol', serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FBF7E8;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #AAA8A8;
+}
+
+.choice:hover {
+  color: white;
+}
+
+
+
+#spicy:hover~#topdog {
+  color: #FBF7E8; 
+  font-weight: bold;
+}
+
+.item{
+  font-family: 'Epilogue', sans-serif;
+  font-size: 25px;
+  text-align: right;
+  font-weight: medium;
+  color: #847F6E;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.choices {
+  position: fixed;
+  top: 100px;
+  bottom: 100px;
+  right: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+  }
+
+  .nav_item {
+    margin-top: 25px;
+    margin-left: 45px;
+    font-family: 'Epilogue', sans-seif;
+    color: #FBF7E8;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited{
+    color:#FBF7E8;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(128, 121, 121);
+    transition-duration: 0.24;
+  }
