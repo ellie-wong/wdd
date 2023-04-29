@@ -1,0 +1,136 @@
+h1 {
+    font-family: 'Petrona', serif;
+    position: relative;
+    font-size: 110px;
+    margin-left: 5%;
+    margin-top: 160px;
+    color: #3A314D;
+
+}
+
+
+.pic {
+    width: 200px;
+    margin: 10px;
+}
+
+.photo-container {
+    position: absolute;
+    right: 200px;
+    top: 200px;
+}
+
+#collage {
+    /* position: absolute;
+    right: 100px;
+    top: 160px; */
+    display: flex;
+    flex-direction: column;
+    /* align-content: center;
+    justify-content: space-between; */
+}
+h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    margin-right: 40%;
+    margin-left: 5%;
+    color: #3A314D;
+
+}
+
+body {
+    background-color: #C9D2A5;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#home {
+    margin-bottom: 300px;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: auto;
+    /* left: 50%;
+    right: 50%; */
+    /* margin-left: -12.5em; */
+    /* margin-right: -12.5em; */
+    /* margin-left: auto;
+    margin-right: auto;
+    text-align: center; */
+}
+#menu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 500px; */
+}
+
+#menu_hover {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 500px; */
+}
+
+#books {
+    transition-duration: 0.5s;
+}
+
+#music {
+    transition-duration: 0.5s;  
+}
+
+#youtube {
+    transition-duration: 0.5s;
+}
+
+#rabbitholes {
+    transition-duration: 0.5s;
+}
+
+
+#books_hover {
+    transition-duration: 0.5s;
+    opacity: 0;
+
+    /* display: none; */
+}
+
+#music_hover {
+    opacity: 0;
+    transition-duration: 0.5s;
+    /* display: none; */
+}
+
+#youtube_hover {
+    opacity: 0;
+    transition-duration: 0.5s;
+    /* display: none; */
+}
+
+#rabbitholes_hover {
+    opacity: 0;
+    /* display: none; */
+}
+
+.icons {
+    width: 125%;
+    margin: 20px;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
